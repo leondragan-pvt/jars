@@ -8,11 +8,11 @@ var BUILD_DIR = path.resolve(__dirname + '/public');
 var APP_DIR = path.resolve(__dirname + '/src');
 var config = {
   entry: APP_DIR + '/index.js',
-  devtool : 'source-map',
-  devServer : {
+  devtool: 'source-map',
+  devServer: {
     inline: true,
-    contentBase : BUILD_DIR,
-    port : 3000
+    contentBase: BUILD_DIR,
+    port: 3000
   },
   output: {
     path: BUILD_DIR,
@@ -20,16 +20,15 @@ var config = {
     publicPath: '/'
   },
   module: {
-    // loaders operate on a file by file basis
     loaders: [{
       test: /\.js$/,
       loader: 'babel',
       exclude: /node_modules/,
       query : {
-        presets: ['es2015', 'react']
-      }
-
+       presets: ['es2015', 'react']
+     }
     }]
   }
 }
+
 module.exports = config;
