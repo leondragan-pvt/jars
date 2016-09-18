@@ -4,13 +4,13 @@ Just Another React Starter [Kit]
 
 ## Features
 
-- Website background pattern from http://www.subtlepatterns.com
 - [babel](babel/babel) with es2015 and react presets
 - [webpack](webpack/webpack) with dev server
 
 
-### Running 
+### To run
 - Clone or download repo
+
 `npm run build`
 `npm run dev`
 
