@@ -10,8 +10,8 @@ Just Another React Starter [Kit]
 
 ### To run
 - Clone or download repo
--`npm run build`
--`npm run dev`
+- `npm run build`
+- `npm run dev`
 
 ### Roadmap
 The following  features that I want to implement in the future:
