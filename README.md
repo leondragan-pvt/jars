@@ -12,6 +12,7 @@ Just Another React Starter [Kit]
 - Clone or download repo
 
 `npm run build`
+
 `npm run dev`
 
 ### Roadmap
