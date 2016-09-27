@@ -4,8 +4,8 @@ Just Another React Starter [Kit]
 
 ## Features
 
-- [babel](babel/babel) with es2015 and react presets
-- [webpack](webpack/webpack) with dev server
+- [babel](https://github.com/babel/babel) with es2015 and react presets
+- [webpack](https://github.com/webpack/webpack) with dev server
 
 
 ### To run
